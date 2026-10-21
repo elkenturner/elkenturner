@@ -7,6 +7,7 @@ I build small software products end to end: idea, design, backend, frontend, dep
 | Project | What it is | Stack |
 |---------|-----------|-------|
 | [Lumidian](https://github.com/elkenturner/Lumidian) | SaaS that tracks how often a brand shows up in answers from ChatGPT, Claude, Perplexity and Gemini, then helps close the gaps. Live product with a paying customer. | Next.js, TypeScript, FastAPI, SQLAlchemy, Stripe, Railway |
+| [defi-arb-bot](https://github.com/elkenturner/defi-arb-bot) | Arbitrage research on Base (Ethereum L2): a quote-based scanner across 4 DEX venues, a safety gate that simulates buy/transfer/sell and owner abuse on a local fork, a block-by-block gap monitor, and an analysis of what real arb bots earn per day. 128 fork-based tests. | Python, web3.py, Solidity, Foundry |
 | [TicketScout](https://github.com/elkenturner/TicketScout) | Scores upcoming concert onsales, tracks presale windows, and manages resale holdings with sell-timing alerts and P&L. | FastAPI, async SQLite, scheduled jobs, Ticketmaster and SeatGeek APIs |
 | rodbot (private, walkthrough on request) | Self-hosted RAG chatbot that replaced a paid CustomGPT bot on a live company website. | Python, AnythingLLM, Docker, Railway |
 | [a2a-research](https://github.com/elkenturner/a2a-research) | Independent research on how AI assistants select and recommend products, with live probes, a repeated-measures experiment, and a write-up. | Python, OpenAI and Gemini APIs, data analysis |
